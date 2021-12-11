@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&family=Martel:wght@200&family=Oswald:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    text-decoration: none;
+}
+body{
+    padding-top: 3%;
+    width: 100%;
+    height: max-content;
+    background-image: url(../media/texture.jpg);
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+}
+.sub-title{
+    width: 80%;
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+.line-title{
+    width: 80%;
+    margin: 10px 0;
+	padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 1px solid #333;
+}
+.main{
+    width: 80%;
+    height: max-content;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Martel', serif;
+}
+.section{
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+.section__item{
+    padding-top: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+	
+}
+.section__item:hover{
+    transition: 1s;
+    padding-left: 50px;
+}
+.content{
+    width: 70%;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+.content__text{
+    margin: 5px;
+}
+.text-joselin, .text-consertion, .text-adispitos, .text-veniam, .text-gyterty{
+    display: none;
+}
